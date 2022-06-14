@@ -51,49 +51,6 @@ nav ul li a{
     height: 21px;
 }
 
-@media (max-width : 600px){
-    #home{
-        width: 100%;
-        padding: 0;
-     }
-     #content{
-         width: 100%;
-     }
-     aside{
-        width: 100%;
-        padding: 0;
-     }
-
-     #home img{
-        width: 50px;
-        height: 50px;
-    }
-    .toggle-button{
-        display: flex;
-    }
-    .navbar-links{
-        width: 100%;
-        display: none;
-    }
-    .navbar{
-        flex-direction: column;
-        align-items: flex-start;
-    }
-   
-    .navbar-links ul{
-        width: 100%;
-        flex-direction: column;
-    }
-    .navbar-links li{
-        text-align: center;
-    }
-    .navbar-links li a{
-        padding: 5rem 1rem;
-    }
-    .navbar-links.active{
-        display: flex;
-    }
-}
 .toggle-button .bar{
 
     height: 3px;
@@ -269,5 +226,71 @@ footer {
     text-align: center;
     font-weight: bold;
  }
+
+ @media (max-width : 600px){
+    #home{
+        width: 100%;
+        padding: 0;
+     }
+     #content{
+         width: 100%;
+     }
+     aside{
+        width: 100%;
+        padding: 0;
+     }
+     #goals section{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .galleryRow{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px;
+    }
+
+    .galleryRow section{
+        margin: 8px 0;
+    }
+    #gallery section{
+        width: 320px;
+        background-color: rgba(246, 201, 220, 0.3);
+    }
+    #gallery section img{
+        width: 320px;
+    }
+
+     #home img{
+        width: 150px;
+        height: 150px;
+    }
+    .toggle-button{
+        display: flex;
+    }
+    .navbar-links{
+        width: 100%;
+        display: none;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+   
+    .navbar-links ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-links li{
+        text-align: center;
+    }
+    .navbar-links li a{
+        padding: 0.5rem 1rem;
+    }
+    .navbar-links.active{
+        display: flex;
+    }
+}
 
  
